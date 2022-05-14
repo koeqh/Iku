@@ -1,6 +1,6 @@
 getgenv().Settings = {
     host = 703071254,
-    fps = 5,
+    fps = 60,
     prefix = '.',
     advertmsg = 'vouch',
 }
@@ -28,8 +28,8 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/el0001/DHMarket/main/
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-	Title = "Join 1542x1's Market Place!";
-	Text = "Link Copied To Your Clipboard!";
+	Title = "why r u so mad";
+	Text = "???";
 	Duration = 5;
 	--Callback here
 	Button1 = "";
